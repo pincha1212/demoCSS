@@ -1,0 +1,88 @@
+/* Establecer un estilo básico para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Establecer el estilo para el encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  /* Establecer el estilo para el logotipo */
+  header img {
+    height: 50px;
+  }
+  
+  /* Establecer el estilo para el menú de navegación */
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Establecer el estilo para el banner */
+  .banner {
+    background-image: url('imagen-banner.jpg');
+    background-size: cover;
+    background-color: aqua;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px #333;
+  }
+  
+  /* Establecer el estilo para la sección de imágenes */
+  .images {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 50px;
+  }
+  
+  .images img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.6s;
+    cursor:move;
+  }
+  
+  .images img:hover {
+    transform: scale(2.2);
+  }
+  
+  /* Establecer el estilo para el pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  /* Establecer el estilo para los enlaces de contacto */
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  
